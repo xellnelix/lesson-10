@@ -8,13 +8,13 @@ public class Box {
     private boolean isFill, isOpen;
 
     public Box(double length, double height, double width) {
-       this.length = length;
-       this.height = height;
-       this.width = width;
-       color = "Белый";
-       isFill = false;
-       isOpen = false;
-       item = null;
+        this.length = length;
+        this.height = height;
+        this.width = width;
+        color = "Белый";
+        isFill = false;
+        isOpen = false;
+        item = null;
     }
 
     public double getLength() {
@@ -102,7 +102,7 @@ public class Box {
     public void dropItem(String item) {
         if (isOpen) {
             if (isFill) {
-                if(this.item.equals(item)) {
+                if (this.item.equals(item)) {
                     isFill = false;
                     System.out.println("Выкинули предмет \"" + item + "\" из коробки");
                 } else {

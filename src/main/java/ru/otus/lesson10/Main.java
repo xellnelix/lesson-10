@@ -10,7 +10,7 @@ public class Main {
                 new User("Тестов", "Тест", "Тестович", 1965, "tttestovich@yandex.ru")
         };
         for (int i = 0; i < users.length; i++) {
-            if(2023 - users[i].getBirthYear() > 40) {
+            if (2023 - users[i].getBirthYear() > 40) {
                 users[i].getUserInfo();
             }
         }
